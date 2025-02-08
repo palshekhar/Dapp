@@ -22,7 +22,7 @@ contract chai{
         owner=payable(msg.sender);
     }
 
-    function chaibuy(string memory name,string memory message) public payable {
+    function chaibuytransfer(string memory name,string memory message) public payable {
           require(msg.value>0,"please add some amount ");
           amountadded=msg.value+amountadded;
           owner.transfer(msg.value);

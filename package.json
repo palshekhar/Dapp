@@ -9,9 +9,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "ethers": "^6.13.5",
     "hardhat": "^2.22.18"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.9",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0"
   }
 }
