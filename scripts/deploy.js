@@ -54,7 +54,7 @@ async function main() {
      
     await consoledetails(details);
 
-    
+    //the chnages must refelect back
 // sinesda
 
 
