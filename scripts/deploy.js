@@ -50,6 +50,8 @@ async function main() {
 
     console.log("now details are");
 
+     console.log();
+     
     await consoledetails(details);
 
     
