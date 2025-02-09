@@ -1,4 +1,6 @@
 
+const { buildModule } = require("@nomicfoundation/hardhat-ignition/modules");
+
 
 module.exports =  buildModule("chai", (m) => {
   const chaicontract = m.contract("chai");
